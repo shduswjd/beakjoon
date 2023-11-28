@@ -8,3 +8,4 @@ for m in range(M):
     lst[i-1:j] = reversed(lst[i-1:j])
 
 for i in lst:
+    print(i, end=" ")
